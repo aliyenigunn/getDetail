@@ -26,23 +26,13 @@ namespace getDetail.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=194.62.40.24\\DATA2;Initial Catalog=LKSDB;User ID=sa;Password=Seker277" +
-            "9.")]
-        public string LKSDBConnectionString {
-            get {
-                return ((string)(this["LKSDBConnectionString"]));
-            }
-        }
+        [global::System.Configuration.DefaultSettingValueAttribute()]
+        
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=194.62.40.24\\DATA2;Initial Catalog=eckaMuhasebe;User ID=sa;Password=S" +
-            "eker2779.")]
-        public string eckaMuhasebeConnectionString {
-            get {
-                return ((string)(this["eckaMuhasebeConnectionString"]));
-            }
-        }
+        [global::System.Configuration.DefaultSettingValueAttribute()]
+        
     }
 }
