@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="eckaMuhasebe" Class="eckaDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=194.62.40.24\DATA2;Initial Catalog=eckaMuhasebe;User ID=sa" SettingsObjectName="getDetail.Properties.Settings" SettingsPropertyName="eckaMuhasebeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PazYakitlar" Member="PazYakitlars">
+    <Type Name="PazYakitlar">
+      <Column Name="yakitID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="aracID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="litre" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="tutar" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="tarih" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="periyod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PazAraclar" Member="PazAraclars">
+    <Type Name="PazAraclar">
+      <Column Name="aracID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="aracPlaka" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="aracAciklama" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VW_ARACYAKITDETAY" Member="VW_ARACYAKITDETAYs">
+    <Type Name="VW_ARACYAKITDETAY">
+      <Column Name="yakitID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="aracID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="aracPlaka" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="aracAciklama" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="litre" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="tutar" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="AY" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="PERIYOD" Type="System.String" DbType="VarChar(14)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

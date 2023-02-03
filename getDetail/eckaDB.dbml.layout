@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="eckaDB">
+  <DataContextMoniker Name="/eckaDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="554cee24-c3a0-464d-b354-004f58b700a7" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/eckaDBDataContext/PazYakitlar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2406d86-78cc-42a2-becb-1a96a60aa5b2" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="70cc09ae-4dfb-43a4-b131-9bd493e8aff2" isExpanded="false" absoluteBounds="0.5, 1, 2, 0.45">
+      <DataClassMoniker Name="/eckaDBDataContext/PazAraclar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49fdf97a-73d4-49c9-8299-60a001447b50" absoluteBounds="0.515, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2c57ba5-6db2-4bc9-8c8b-a07df08895c9" isExpanded="false" absoluteBounds="2.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/eckaDBDataContext/VW_ARACYAKITDETAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8dd9fb73-aa91-4a07-b3e5-67a115f2f9a5" absoluteBounds="2.64, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

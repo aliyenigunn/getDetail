@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LKSDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=194.62.40.24\DATA2;Initial Catalog=LKSDB;User ID=sa" SettingsObjectName="getDetail.Properties.Settings" SettingsPropertyName="LKSDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CTN_SATICIBAZLIMALIYETKARZARAR" Member="CTN_SATICIBAZLIMALIYETKARZARARs">
+    <Type Name="CTN_SATICIBAZLIMALIYETKARZARAR">
+      <Column Name="Tarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Ay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FisNo" Type="System.String" DbType="VarChar(17)" CanBeNull="true" />
+      <Column Name="SatisElemani" Type="System.String" DbType="VarChar(51) NOT NULL" CanBeNull="false" />
+      <Column Name="FaturaTuru" Type="System.String" DbType="VarChar(29) NOT NULL" CanBeNull="false" />
+      <Column Name="CariKodu" Type="System.String" DbType="VarChar(17)" CanBeNull="true" />
+      <Column Name="CariAdi" Type="System.String" DbType="VarChar(201)" CanBeNull="true" />
+      <Column Name="SatirTuru" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="MalHizmetKodu" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="MalHizmetAdi" Type="System.String" DbType="VarChar(51)" CanBeNull="true" />
+      <Column Name="Aciklama" Type="System.String" DbType="VarChar(251)" CanBeNull="true" />
+      <Column Name="DEPO" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="Miktar" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KdvMatrah" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KdvTutar" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="NetTutar" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Birim" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="BOLGE" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="BirimMaliyet" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GirisMaliyet" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KarZarar" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PAZ_ENVANTERLİSTE" Member="PAZ_ENVANTERLİSTEs">
+    <Type Name="PAZ_ENVANTERLİSTE">
+      <Column Name="envID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="envAdi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envAnaGrup" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envMarka" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envModel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envSeriNo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envMiktar" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="envKonum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envSorumlu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="envDurum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PAZ_DEPOBAZLISTOKFIYAT" Member="PAZ_DEPOBAZLISTOKFIYATs">
+    <Type Name="PAZ_DEPOBAZLISTOKFIYAT">
+      <Column Name="CODE" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="NAME" Type="System.String" DbType="VarChar(51)" CanBeNull="true" />
+      <Column Name="BIRIM" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="BARCODE" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="ALISFIYATI" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SATISFIYATI" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GATEMSTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KÜSGETSTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="İADESTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TOPLAMSTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GATEMTUTAR" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KÜSGETTUTAR" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GENELTUTAR" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

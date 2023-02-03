@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="a574f0d6-6031-45dc-b9e4-c4e37e42351a" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataClasses1DataContext/CTN_SATICIBAZLIMALIYETKARZARAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0017c8a0-e1eb-4a89-894d-2d61172eee56" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9254e69-0b38-4e5e-bba0-33b263d37ac7" isExpanded="false" absoluteBounds="0.5, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/DataClasses1DataContext/PAZ_ENVANTERLİSTE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77db2db5-b131-4158-acb9-aa050d62eaf8" absoluteBounds="0.51500000000000012, 1.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cace16f8-7c75-4459-9169-d4ea1128faeb" isExpanded="false" absoluteBounds="0.5, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/DataClasses1DataContext/PAZ_DEPOBAZLISTOKFIYAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15901579-7bb6-4260-b272-254ffc410859" absoluteBounds="0.515, 2.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
